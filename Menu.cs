@@ -42,14 +42,14 @@ namespace MyCareerApp
         private void testButton_Click(object sender, EventArgs e)
         {
             Close();
-            chooseTest chooseTest = new();
+            chooseTest chooseTest = new(new_current_user_id);
             chooseTest.Show();
         }
 
         private void suggestButton_Click(object sender, EventArgs e)
         {
             Close();
-            Recommendation recommendation = new();
+            Recommendation recommendation = new(new_current_user_id);
             recommendation.Show();
         }
 

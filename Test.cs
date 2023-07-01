@@ -14,10 +14,12 @@ namespace MyCareerApp
     {
         private string speciality;
         private int score;
-        public Test(string speciality)
+        public int new_current_user_id;
+        public Test(string speciality, int current_user_id)
 
         {
                 InitializeComponent();
+                new_current_user_id = current_user_id;
                 this.speciality = speciality;
                 score = 0;
                 label1.Text = speciality;
@@ -291,7 +293,7 @@ namespace MyCareerApp
 
             private void backButton_Click(object sender, EventArgs e)
             {
-                chooseTest chooseTest = new chooseTest();
+                chooseTest chooseTest = new chooseTest(new_current_user_id);
                 Hide();
                 chooseTest.Show();
             }
@@ -310,6 +312,8 @@ namespace MyCareerApp
             {
                 score = 0;
 
+            if (speciality == "Συστήματα Διαχείρισης Βάσεων Δεδομένων")
+            {
                 // Question 1
                 if (radioButton1.Checked)
                 {
@@ -327,9 +331,169 @@ namespace MyCareerApp
                 {
                     score++;
                 }
+            } else if (speciality == "Λογικός Προγραμματισμός")
+            {
+                // Question 1
+                if (radioButton2.Checked)
+                {
+                    score++;
+                }
 
-                // Display the score or perform further actions
-                MessageBox.Show("Your score: " + score);
+                // Question 2
+                if (radioButton8.Checked)
+                {
+                    score++;
+                }
+
+                // Question 3
+                if (radioButton12.Checked)
+                {
+                    score++;
+                }
+            }
+            else if (speciality == "Εικονική Πραγματικότητα")
+            {
+                // Question 1
+                if (radioButton1.Checked)
+                {
+                    score++;
+                }
+
+                // Question 2
+                if (radioButton8.Checked)
+                {
+                    score++;
+                }
+
+                // Question 3
+                if (radioButton9.Checked)
+                {
+                    score++;
+                }
+            }
+            else if (speciality == "Ηλεκτρονικό Επιχειρείν και Καινοτομία")
+            {
+                // Question 1
+                if (radioButton1.Checked)
+                {
+                    score++;
+                }
+
+                // Question 2
+                if (radioButton7.Checked)
+                {
+                    score++;
+                }
+
+                // Question 3
+                if (radioButton9.Checked)
+                {
+                    score++;
+                }
+            }
+            else if (speciality == "Κρυπτογραφία")
+            {
+                // Question 1
+                if (radioButton2.Checked)
+                {
+                    score++;
+                }
+
+                // Question 2
+                if (radioButton5.Checked)
+                {
+                    score++;
+                }
+
+                // Question 3
+                if (radioButton9.Checked)
+                {
+                    score++;
+                }
+            }
+            else if (speciality == "Προηγμένη Αρχιτεκτονική Υπολογιστών")
+            {
+                // Question 1
+                if (radioButton2.Checked)
+                {
+                    score++;
+                }
+
+                // Question 2
+                if (radioButton8.Checked)
+                {
+                    score++;
+                }
+
+                // Question 3
+                if (radioButton9.Checked)
+                {
+                    score++;
+                }
+            }
+            else if (speciality == "Κινητές και Ασύρματες Επικοινωνίες")
+            {
+                // Question 1
+                if (radioButton4.Checked)
+                {
+                    score++;
+                }
+
+                // Question 2
+                if (radioButton5.Checked)
+                {
+                    score++;
+                }
+
+                // Question 3
+                if (radioButton12.Checked)
+                {
+                    score++;
+                }
+            }
+            else if (speciality == "Δίκτυα Υψηλών Ταχυτήτων")
+            {
+                // Question 1
+                if (radioButton1.Checked)
+                {
+                    score++;
+                }
+
+                // Question 2
+                if (radioButton6.Checked)
+                {
+                    score++;
+                }
+
+                // Question 3
+                if (radioButton10.Checked)
+                {
+                    score++;
+                }
+            }else if (speciality == "Επαναληπτικό Τεστ")
+            {
+                // Question 1
+                if (radioButton2.Checked)
+                {
+                    score++;
+                }
+
+                // Question 2
+                if (radioButton7.Checked)
+                {
+                    score++;
+                }
+
+                // Question 3
+                if (radioButton11.Checked)
+                {
+                    score++;
+                }
+            }
+
+
+            // Display the score or perform further actions
+            MessageBox.Show("Your score: " + score);
             }
         }
     }

@@ -12,15 +12,17 @@ namespace MyCareerApp
 {
     public partial class Recommendation : Form
     {
-        public Recommendation()
+        public int new_current_user_id;
+        public Recommendation(int new_current_user_id)
         {
             InitializeComponent();
+            this.new_current_user_id = new_current_user_id;
         }
 
         private void backButton_Click(object sender, EventArgs e)
         {
             Close();
-            Menu menu = new Menu(1);
+            Menu menu = new Menu(new_current_user_id);
             menu.Show();
         }
 
