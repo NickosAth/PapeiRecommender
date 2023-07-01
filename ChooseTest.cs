@@ -12,7 +12,7 @@ namespace MyCareerApp
 {
     public partial class chooseTest : Form
     {
-        public static string speciality;
+        public static int speciality_id;
         public static int new_current_user_id;
 
         public chooseTest(int current_user_id)
@@ -35,71 +35,72 @@ namespace MyCareerApp
 
         private void softwareDeveloper_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Συστήματα Υποστήριξης Αποφάσεων";
-            Test test = new Test(speciality, new_current_user_id);
+            speciality_id = 9;
+            Test test = new Test(speciality_id, new_current_user_id);
             Close();
             test.Show();
         }
         private void dataAnalyst_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Επαναληπτικό Τεστ";
-            Test test = new Test(speciality, new_current_user_id);
+            //Πρεπει να το φτιαξω
+            speciality_id = 0;
+            Test test = new Test(speciality_id, new_current_user_id);
             Close();
             test.Show();
         }
         private void computerSystemAnalyst_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Συστήματα Διαχείρισης Βάσεων Δεδομένων";
-            Test test = new Test(speciality, new_current_user_id);
+            speciality_id = 3;
+            Test test = new Test(speciality_id, new_current_user_id);
             Close();
             test.Show();
         }
         private void videoGameDeveloper_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Εικονική Πραγματικότητα";
-            Test test = new Test(speciality, new_current_user_id);
+            speciality_id = 2;
+            Test test = new Test(speciality_id, new_current_user_id);
             Close();
             test.Show();
         }
         private void userExperienceDesign_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Λογικός Προγραμματισμός";
-            Test test = new Test(speciality, new_current_user_id);
+            speciality_id = 4;
+            Test test = new Test(speciality_id, new_current_user_id);
             Close();
             test.Show();
         }
         private void informationSecurity_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Ηλεκτρονικό Επιχειρείν και Καινοτομία";
-            Test test = new Test(speciality, new_current_user_id);
+            speciality_id = 1;
+            Test test = new Test(speciality_id, new_current_user_id);
             Close();
             test.Show();
         }
         private void networkEngineer_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Κρυπτογραφία";
-            Test test = new Test(speciality, new_current_user_id);
+            speciality_id = 8;
+            Test test = new Test(speciality_id, new_current_user_id);
             Close();
             test.Show();
         }
         private void machineLearning_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Προηγμένη Αρχιτεκτονική Υπολογιστών";
-            Test test = new Test(speciality, new_current_user_id);
+            speciality_id = 5;
+            Test test = new Test(speciality_id, new_current_user_id);
             Close();
             test.Show();
         }
         private void webDeveloper_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Κινητές και Ασύρματες Επικοινωνίες";
-            Test test = new Test(speciality, new_current_user_id);
+            speciality_id = 6;
+            Test test = new Test(speciality_id, new_current_user_id);
             Close();
             test.Show();
         }
         private void webDesigner_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Δίκτυα Υψηλών Ταχυτήτων";
-            Test test = new Test(speciality, new_current_user_id);
+            speciality_id = 7;
+            Test test = new Test(speciality_id, new_current_user_id);
             Close();
             test.Show();
         }
