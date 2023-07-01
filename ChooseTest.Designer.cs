@@ -48,9 +48,9 @@
             // 
             this.message.AutoSize = true;
             this.message.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.message.Location = new System.Drawing.Point(649, 436);
+            this.message.Location = new System.Drawing.Point(699, 591);
             this.message.Name = "message";
-            this.message.Size = new System.Drawing.Size(323, 116);
+            this.message.Size = new System.Drawing.Size(407, 140);
             this.message.TabIndex = 25;
             this.message.Text = "Παρακαλώ διαλέξτε την ειδικότητα \r\nγια την οποία θέλετε να δοκιμάσετε \r\nτις δυνατ" +
     "ότητες σας πατώντας \r\nκλικ πάνω της.";
@@ -61,9 +61,10 @@
             this.exitButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitButton.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.exitButton.Location = new System.Drawing.Point(787, 12);
+            this.exitButton.Location = new System.Drawing.Point(899, 16);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(185, 80);
+            this.exitButton.Size = new System.Drawing.Size(211, 107);
             this.exitButton.TabIndex = 24;
             this.exitButton.Text = "Έξοδος";
             this.exitButton.UseVisualStyleBackColor = false;
@@ -75,9 +76,10 @@
             this.backButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backButton.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.backButton.Location = new System.Drawing.Point(12, 12);
+            this.backButton.Location = new System.Drawing.Point(14, 16);
+            this.backButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(185, 80);
+            this.backButton.Size = new System.Drawing.Size(211, 107);
             this.backButton.TabIndex = 23;
             this.backButton.Text = "Πίσω";
             this.backButton.UseVisualStyleBackColor = false;
@@ -90,9 +92,9 @@
             this.userExperienceDesign.Cursor = System.Windows.Forms.Cursors.Hand;
             this.userExperienceDesign.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.userExperienceDesign.LinkColor = System.Drawing.Color.Maroon;
-            this.userExperienceDesign.Location = new System.Drawing.Point(205, 134);
+            this.userExperienceDesign.Location = new System.Drawing.Point(234, 179);
             this.userExperienceDesign.Name = "userExperienceDesign";
-            this.userExperienceDesign.Size = new System.Drawing.Size(363, 37);
+            this.userExperienceDesign.Size = new System.Drawing.Size(449, 46);
             this.userExperienceDesign.TabIndex = 22;
             this.userExperienceDesign.TabStop = true;
             this.userExperienceDesign.Text = "•Λογικός Προγραμματισμός";
@@ -106,9 +108,9 @@
             this.networkEngineer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.networkEngineer.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.networkEngineer.LinkColor = System.Drawing.Color.Maroon;
-            this.networkEngineer.Location = new System.Drawing.Point(205, 306);
+            this.networkEngineer.Location = new System.Drawing.Point(234, 408);
             this.networkEngineer.Name = "networkEngineer";
-            this.networkEngineer.Size = new System.Drawing.Size(213, 37);
+            this.networkEngineer.Size = new System.Drawing.Size(264, 46);
             this.networkEngineer.TabIndex = 21;
             this.networkEngineer.TabStop = true;
             this.networkEngineer.Text = "•Κρυπτογραφία";
@@ -122,9 +124,9 @@
             this.informationSecurity.Cursor = System.Windows.Forms.Cursors.Hand;
             this.informationSecurity.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.informationSecurity.LinkColor = System.Drawing.Color.Maroon;
-            this.informationSecurity.Location = new System.Drawing.Point(205, 220);
+            this.informationSecurity.Location = new System.Drawing.Point(234, 293);
             this.informationSecurity.Name = "informationSecurity";
-            this.informationSecurity.Size = new System.Drawing.Size(512, 37);
+            this.informationSecurity.Size = new System.Drawing.Size(639, 46);
             this.informationSecurity.TabIndex = 20;
             this.informationSecurity.TabStop = true;
             this.informationSecurity.Text = "•Ηλεκτρονικό Επιχειρείν και Καινοτομία";
@@ -138,9 +140,9 @@
             this.machineLearning.Cursor = System.Windows.Forms.Cursors.Hand;
             this.machineLearning.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.machineLearning.LinkColor = System.Drawing.Color.Maroon;
-            this.machineLearning.Location = new System.Drawing.Point(205, 349);
+            this.machineLearning.Location = new System.Drawing.Point(234, 465);
             this.machineLearning.Name = "machineLearning";
-            this.machineLearning.Size = new System.Drawing.Size(532, 37);
+            this.machineLearning.Size = new System.Drawing.Size(661, 46);
             this.machineLearning.TabIndex = 19;
             this.machineLearning.TabStop = true;
             this.machineLearning.Text = "•Προηγμένη Αρχιτεκτονική Υπολογιστών";
@@ -154,9 +156,9 @@
             this.computerSystemAnalyst.Cursor = System.Windows.Forms.Cursors.Hand;
             this.computerSystemAnalyst.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.computerSystemAnalyst.LinkColor = System.Drawing.Color.Maroon;
-            this.computerSystemAnalyst.Location = new System.Drawing.Point(205, 91);
+            this.computerSystemAnalyst.Location = new System.Drawing.Point(234, 121);
             this.computerSystemAnalyst.Name = "computerSystemAnalyst";
-            this.computerSystemAnalyst.Size = new System.Drawing.Size(576, 37);
+            this.computerSystemAnalyst.Size = new System.Drawing.Size(722, 46);
             this.computerSystemAnalyst.TabIndex = 18;
             this.computerSystemAnalyst.TabStop = true;
             this.computerSystemAnalyst.Text = "•Συστήματα Διαχείρισης Βάσεων Δεδομένων";
@@ -170,9 +172,9 @@
             this.videoGameDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
             this.videoGameDeveloper.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.videoGameDeveloper.LinkColor = System.Drawing.Color.Maroon;
-            this.videoGameDeveloper.Location = new System.Drawing.Point(205, 177);
+            this.videoGameDeveloper.Location = new System.Drawing.Point(234, 236);
             this.videoGameDeveloper.Name = "videoGameDeveloper";
-            this.videoGameDeveloper.Size = new System.Drawing.Size(346, 37);
+            this.videoGameDeveloper.Size = new System.Drawing.Size(428, 46);
             this.videoGameDeveloper.TabIndex = 17;
             this.videoGameDeveloper.TabStop = true;
             this.videoGameDeveloper.Text = "•Εικονική Πραγματικότητα";
@@ -186,9 +188,9 @@
             this.webDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
             this.webDeveloper.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.webDeveloper.LinkColor = System.Drawing.Color.Maroon;
-            this.webDeveloper.Location = new System.Drawing.Point(205, 392);
+            this.webDeveloper.Location = new System.Drawing.Point(234, 523);
             this.webDeveloper.Name = "webDeveloper";
-            this.webDeveloper.Size = new System.Drawing.Size(486, 37);
+            this.webDeveloper.Size = new System.Drawing.Size(606, 46);
             this.webDeveloper.TabIndex = 16;
             this.webDeveloper.TabStop = true;
             this.webDeveloper.Text = "•Κινητές και Ασύρματες Επικοινωνίες";
@@ -202,9 +204,9 @@
             this.webDesigner.Cursor = System.Windows.Forms.Cursors.Hand;
             this.webDesigner.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.webDesigner.LinkColor = System.Drawing.Color.Maroon;
-            this.webDesigner.Location = new System.Drawing.Point(205, 436);
+            this.webDesigner.Location = new System.Drawing.Point(234, 581);
             this.webDesigner.Name = "webDesigner";
-            this.webDesigner.Size = new System.Drawing.Size(369, 37);
+            this.webDesigner.Size = new System.Drawing.Size(459, 46);
             this.webDesigner.TabIndex = 15;
             this.webDesigner.TabStop = true;
             this.webDesigner.Text = "•Δίκτυα Υψηλών Ταχυτήτων";
@@ -218,9 +220,9 @@
             this.dataAnalyst.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dataAnalyst.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.dataAnalyst.LinkColor = System.Drawing.Color.Maroon;
-            this.dataAnalyst.Location = new System.Drawing.Point(205, 479);
+            this.dataAnalyst.Location = new System.Drawing.Point(234, 639);
             this.dataAnalyst.Name = "dataAnalyst";
-            this.dataAnalyst.Size = new System.Drawing.Size(212, 37);
+            this.dataAnalyst.Size = new System.Drawing.Size(261, 46);
             this.dataAnalyst.TabIndex = 14;
             this.dataAnalyst.TabStop = true;
             this.dataAnalyst.Text = "•Επαναληπτικό";
@@ -234,9 +236,9 @@
             this.softwareDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
             this.softwareDeveloper.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.softwareDeveloper.LinkColor = System.Drawing.Color.Maroon;
-            this.softwareDeveloper.Location = new System.Drawing.Point(205, 263);
+            this.softwareDeveloper.Location = new System.Drawing.Point(234, 351);
             this.softwareDeveloper.Name = "softwareDeveloper";
-            this.softwareDeveloper.Size = new System.Drawing.Size(499, 37);
+            this.softwareDeveloper.Size = new System.Drawing.Size(621, 46);
             this.softwareDeveloper.TabIndex = 13;
             this.softwareDeveloper.TabStop = true;
             this.softwareDeveloper.Text = "•Συστήματα Υποστήριξης Αποφάσεων";
@@ -250,9 +252,10 @@
             this.helpButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.helpButton.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.helpButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.helpButton.Location = new System.Drawing.Point(12, 517);
+            this.helpButton.Location = new System.Drawing.Point(14, 689);
+            this.helpButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.helpButton.Name = "helpButton";
-            this.helpButton.Size = new System.Drawing.Size(104, 32);
+            this.helpButton.Size = new System.Drawing.Size(119, 43);
             this.helpButton.TabIndex = 26;
             this.helpButton.Text = "Βοήθεια!";
             this.helpButton.UseVisualStyleBackColor = false;
@@ -260,10 +263,10 @@
             // 
             // chooseTest
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(984, 561);
+            this.ClientSize = new System.Drawing.Size(1125, 748);
             this.Controls.Add(this.helpButton);
             this.Controls.Add(this.message);
             this.Controls.Add(this.exitButton);
@@ -279,6 +282,7 @@
             this.Controls.Add(this.dataAnalyst);
             this.Controls.Add(this.softwareDeveloper);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "chooseTest";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
