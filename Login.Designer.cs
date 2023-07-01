@@ -46,9 +46,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.username.AutoSize = true;
             this.username.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.username.Location = new System.Drawing.Point(236, 200);
+            this.username.Location = new System.Drawing.Point(270, 267);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(143, 25);
+            this.username.Size = new System.Drawing.Size(179, 31);
             this.username.TabIndex = 3;
             this.username.Text = "Όνομα χρήστη:";
             // 
@@ -58,11 +58,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.passwordTextBox.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.passwordTextBox.Location = new System.Drawing.Point(385, 268);
-            this.passwordTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.passwordTextBox.Location = new System.Drawing.Point(455, 358);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.PasswordChar = '*';
-            this.passwordTextBox.Size = new System.Drawing.Size(411, 32);
+            this.passwordTextBox.Size = new System.Drawing.Size(469, 38);
             this.passwordTextBox.TabIndex = 2;
             // 
             // password
@@ -72,9 +71,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.password.AutoSize = true;
             this.password.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.password.Location = new System.Drawing.Point(182, 271);
+            this.password.Location = new System.Drawing.Point(208, 361);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(197, 25);
+            this.password.Size = new System.Drawing.Size(248, 31);
             this.password.TabIndex = 4;
             this.password.Text = "Κωδικός πρόσβασης:";
             // 
@@ -83,10 +82,9 @@
             this.loginButton.BackColor = System.Drawing.Color.Tan;
             this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginButton.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.loginButton.Location = new System.Drawing.Point(222, 396);
-            this.loginButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.loginButton.Location = new System.Drawing.Point(254, 528);
             this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(250, 100);
+            this.loginButton.Size = new System.Drawing.Size(286, 133);
             this.loginButton.TabIndex = 0;
             this.loginButton.Text = "Είσοδος";
             this.loginButton.UseVisualStyleBackColor = false;
@@ -97,10 +95,9 @@
             this.registerButton.BackColor = System.Drawing.Color.Tan;
             this.registerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.registerButton.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.registerButton.Location = new System.Drawing.Point(632, 396);
-            this.registerButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.registerButton.Location = new System.Drawing.Point(722, 528);
             this.registerButton.Name = "registerButton";
-            this.registerButton.Size = new System.Drawing.Size(250, 100);
+            this.registerButton.Size = new System.Drawing.Size(286, 133);
             this.registerButton.TabIndex = 5;
             this.registerButton.Text = "Εγγραφή";
             this.registerButton.UseVisualStyleBackColor = false;
@@ -112,10 +109,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.usernameTextBox.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.usernameTextBox.Location = new System.Drawing.Point(385, 197);
-            this.usernameTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.usernameTextBox.Location = new System.Drawing.Point(455, 264);
             this.usernameTextBox.Name = "usernameTextBox";
-            this.usernameTextBox.Size = new System.Drawing.Size(411, 32);
+            this.usernameTextBox.Size = new System.Drawing.Size(469, 38);
             this.usernameTextBox.TabIndex = 1;
             // 
             // label1
@@ -125,9 +121,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(325, 21);
+            this.label1.Location = new System.Drawing.Point(371, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(359, 42);
+            this.label1.Size = new System.Drawing.Size(447, 52);
             this.label1.TabIndex = 6;
             this.label1.Text = "Επαγγελματικός Οδηγός";
             // 
@@ -138,9 +134,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(236, 110);
+            this.label2.Location = new System.Drawing.Point(270, 147);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(580, 23);
+            this.label2.Size = new System.Drawing.Size(723, 29);
             this.label2.TabIndex = 7;
             this.label2.Text = "Καλώς ορίσατε στον επαγγελματικό οδηγό φοιτητών του Πανεπιστημίου Πειραιώς";
             // 
@@ -151,9 +147,10 @@
             this.helpButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.helpButton.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.helpButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.helpButton.Location = new System.Drawing.Point(12, 517);
+            this.helpButton.Location = new System.Drawing.Point(14, 689);
+            this.helpButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.helpButton.Name = "helpButton";
-            this.helpButton.Size = new System.Drawing.Size(104, 32);
+            this.helpButton.Size = new System.Drawing.Size(119, 43);
             this.helpButton.TabIndex = 27;
             this.helpButton.Text = "Βοήθεια!";
             this.helpButton.UseVisualStyleBackColor = false;
@@ -161,11 +158,11 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(984, 561);
+            this.ClientSize = new System.Drawing.Size(1125, 748);
             this.Controls.Add(this.helpButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -176,7 +173,6 @@
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.password);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
